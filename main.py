@@ -318,8 +318,8 @@ else:
     ax.set_ylabel("Temperature (°C)")
     ax.set_title("Temperature Trend Over 24 Hours")
 
-    # Set y-axis range from 15°C to 30°C
-    ax.set_ylim(15, 30)
+    # Set y-axis range from 15°C to 40°C
+    ax.set_ylim(15, 40)
 
     # Add grid for better readability
     ax.grid(True, linestyle="--", alpha=0.6)
