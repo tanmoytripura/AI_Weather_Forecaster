@@ -290,7 +290,7 @@ else:
 
     for i in range(len(df_pred_column)):
         if i==0:
-            df_pred[df_pred_column[i]] = [((val - 32)*5)/9 for val in predicted[:,i]]
+            df_pred[df_pred_column[i]] = [((val - 32)*10)/9 for val in predicted[:,i]]
         elif i==2:
             df_pred[df_pred_column[i]] = ["None" if abs(val) < abs(val - 1) else "Rain" for val in predicted[:,i]]
         elif i==7:
