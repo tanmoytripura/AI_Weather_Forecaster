@@ -14,7 +14,7 @@ This project is an AI-powered weather forecasting application built using Stream
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/ai-weather-forecaster.git
+   git clone https://github.com/tanmoytripura/AI_Weather_Forecaster.git
    cd ai-weather-forecaster
    ```
 2. Install dependencies:
